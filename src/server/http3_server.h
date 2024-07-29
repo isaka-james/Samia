@@ -11,12 +11,15 @@ public:
     bool initialize();
     void start();
     void run();
-    void stop(); // Add this declaration
+    void stop();
+
 
 private:
     Config config;
     bool running;
-    // Add more members as needed for QUIC, SSL/TLS, etc.
+
+    // more members as needed for QUIC, SSL/TLS, etc.
+    bool handle_http3_request();
 };
 
 #endif // HTTP3_SERVER_H

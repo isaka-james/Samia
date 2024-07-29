@@ -1,6 +1,7 @@
 #include "config.h"
 #include "logger.h"
 #include <fstream>
+#include <iostream>
 
 Config::Config(const std::string& filepath) : filepath(filepath) {}
 
@@ -14,4 +15,12 @@ bool Config::load() {
     configFile >> configData;
     Logger::info("Configuration loaded from: " + filepath);
     return true;
+}
+
+std::string Config::getSSLCertPath() const {
+    return configData["server"]["ssl_cert"];
+}
+
+std::string Config::getSSLKeyPath() const {
+    return configData["server"]["ssl_key"];
 }

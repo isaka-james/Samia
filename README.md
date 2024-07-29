@@ -53,3 +53,15 @@ Use `curl` to send a request to the server:
 ```bash
 curl -v --http3 https://localhost:443 --insecure
 ```
+
+
+
+# docs
+1. QUIC
+    - https://en.wikipedia.org/wiki/QUIC
+2. HTTP/3
+    - https://http3-explained.haxx.se/en
+3. HTTP/3 & QUIC
+    - https://curl.se/docs/http3.html
+4. nghttp3 
+    - https://nghttp2.org/nghttp3/programmers-guide.html

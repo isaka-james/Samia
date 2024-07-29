@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Samia.dir/src/main.cpp.o CMakeFiles/Samia.dir/src/server/http3_server.cpp.o CMakeFiles/Samia.dir/src/utils/logger.cpp.o CMakeFiles/Samia.dir/src/utils/config.cpp.o -o Samia  /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 

@@ -8,6 +8,9 @@ class Config {
 public:
     Config(const std::string& filepath);
     bool load();
+    std::string getSSLCertPath() const;
+    std::string getSSLKeyPath() const;
+
     // Add more configuration-related methods
 
 private:
